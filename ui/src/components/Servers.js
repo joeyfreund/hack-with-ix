@@ -5,7 +5,11 @@ export default class Servers extends Component {
 
   constructor () {
     super()
-    this.state = { servers : [] }
+    this.state = {
+      a : 'whatever',
+      servers : []
+    }
+
   }
 
 

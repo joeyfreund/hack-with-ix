@@ -5,6 +5,7 @@ import createBrowserHistory from 'history/lib/createBrowserHistory'
 
 import App from 'components/App'
 import Servers from 'components/Servers'
+import Example from 'components/Example'
 
 let routes =
   <Router
@@ -13,6 +14,11 @@ let routes =
     <Route
       path = "/"
       component = { App }
+    />
+
+    <Route
+      path = "/example"
+      component = { Example }
     />
 
     <Route
